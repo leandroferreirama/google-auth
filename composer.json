@@ -1,0 +1,27 @@
+{
+  "name": "leandroferreirama/google-auth",
+  "description": "Biblioteca API para integração com o webservice do Google Calendar",
+  "keywords": [
+    "Google",
+    "Auth",
+    "Leandro Ferreira Marcelli"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Leandro F Marcelli",
+      "email": "suporte@integracaosistema.com.br",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "ext-json": "*",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "LeandroFerreiraMa\\GoogleAuth\\": "src"
+    }
+  }
+}
